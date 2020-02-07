@@ -2,10 +2,12 @@
 //
 
 #include "pch.h"
-
-int main()
+#include <iostream>
+#include <gtest/gtest.h>
+//#include "School_Environment_Test.h"
+int main(int argc,char**argv)
 {
-
-    std::cout << "Hello World!\n";
-    return 0;
+	testing::InitGoogleTest(&argc, argv);
+	/*testing::AddGlobalTestEnvironment(new School_Environment_Test);*/
+	return RUN_ALL_TESTS();
 }

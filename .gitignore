@@ -43,5 +43,12 @@ DataStructure.log
 *.CppClean.log
 *.FileListAbsolute.txt
 *.applocal.log
+*.iobj
+*.exp
+*.ipdb
+*.log
+*.hint
+*.db-shm
+*.db-wal
 
 
